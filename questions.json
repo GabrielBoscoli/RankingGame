@@ -1,0 +1,246 @@
+{
+  "game": "É Top!? Brasil (custom categories)",
+  "count": 40,
+  "categories": [
+    {
+      "id": 1,
+      "area": "Geography",
+      "category": "The 10 most populous countries in the world (by population)",
+      "source_url": "https://www.worldometers.info/world-population/population-by-country/"
+    },
+    {
+      "id": 2,
+      "area": "Movies",
+      "category": "The 10 highest-grossing films of all time (worldwide box office, unadjusted)",
+      "source_url": "https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/"
+    },
+    {
+      "id": 3,
+      "area": "Architecture",
+      "category": "The 10 tallest completed buildings in the world (by height)",
+      "source_url": "https://www.skyscrapercenter.com/buildings"
+    },
+    {
+      "id": 4,
+      "area": "Geography",
+      "category": "The 10 largest countries by land area",
+      "source_url": "https://www.worldometers.info/geography/largest-countries-in-the-world/"
+    },
+    {
+      "id": 5,
+      "area": "Geography",
+      "category": "The 10 most populous cities (urban areas) in the world",
+      "source_url": "https://worldpopulationreview.com/world-cities"
+    },
+    {
+      "id": 6,
+      "area": "Nature",
+      "category": "The 10 longest rivers in the world",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_river_systems_by_length"
+    },
+    {
+      "id": 7,
+      "area": "Nature",
+      "category": "The 10 highest mountains on Earth (above sea level)",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_highest_mountains_on_Earth"
+    },
+    {
+      "id": 8,
+      "area": "Business",
+      "category": "The 10 most valuable companies by market capitalization",
+      "source_url": "https://companiesmarketcap.com/"
+    },
+    {
+      "id": 9,
+      "area": "Business",
+      "category": "The 10 richest people in the world",
+      "source_url": "https://www.forbes.com/real-time-billionaires/"
+    },
+    {
+      "id": 10,
+      "area": "Economics",
+      "category": "The 10 largest economies by GDP (nominal)",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)"
+    },
+    {
+      "id": 11,
+      "area": "Social Media",
+      "category": "The 10 most subscribed YouTube channels",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_most-subscribed_YouTube_channels"
+    },
+    {
+      "id": 12,
+      "area": "Social Media",
+      "category": "The 10 most followed Instagram accounts",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_most-followed_Instagram_accounts"
+    },
+    {
+      "id": 13,
+      "area": "Music",
+      "category": "The 10 most-streamed songs on Spotify",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Spotify_streaming_records"
+    },
+    {
+      "id": 14,
+      "area": "Video Games",
+      "category": "The 10 best-selling video games of all time",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    },
+    {
+      "id": 15,
+      "area": "Literature",
+      "category": "The 10 best-selling books of all time (single-volume)",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_best-selling_books"
+    },
+    {
+      "id": 16,
+      "area": "Transportation",
+      "category": "The 10 busiest airports by total passenger traffic",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_busiest_airports_by_passenger_traffic"
+    },
+    {
+      "id": 17,
+      "area": "Travel",
+      "category": "The 10 most-visited countries by international tourist arrivals",
+      "source_url": "https://en.wikipedia.org/wiki/World_Tourism_rankings"
+    },
+    {
+      "id": 18,
+      "area": "Sports",
+      "category": "The 10 highest-paid athletes in the world",
+      "source_url": "https://www.forbes.com/athletes/"
+    },
+    {
+      "id": 19,
+      "area": "Sports",
+      "category": "The 10 countries with the most Olympic gold medals (all-time)",
+      "source_url": "https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table"
+    },
+    {
+      "id": 20,
+      "area": "Music",
+      "category": "The 10 highest-grossing music tours of all time",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_concert_tours"
+    },
+    {
+      "id": 21,
+      "area": "Music",
+      "category": "The 10 best-selling music artists of all time",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_best-selling_music_artists"
+    },
+    {
+      "id": 22,
+      "area": "Entertainment",
+      "category": "The 10 highest-grossing film/media franchises of all time",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_media_franchises"
+    },
+    {
+      "id": 23,
+      "area": "History",
+      "category": "The 10 longest-reigning monarchs in history",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_longest-reigning_monarchs"
+    },
+    {
+      "id": 24,
+      "area": "Animals",
+      "category": "The 10 fastest land animals",
+      "source_url": "https://en.wikipedia.org/wiki/Fastest_animals"
+    },
+    {
+      "id": 25,
+      "area": "Language",
+      "category": "The 10 most spoken languages in the world (total speakers)",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers"
+    },
+    {
+      "id": 26,
+      "area": "Sports",
+      "category": "The 10 players with the most Grand Slam singles titles (tennis)",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_singles_champions"
+    },
+    {
+      "id": 27,
+      "area": "Sports",
+      "category": "The 10 top scorers in men's international football history",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_men%27s_footballers_with_50_or_more_international_goals"
+    },
+    {
+      "id": 28,
+      "area": "Environment",
+      "category": "The 10 countries with the highest CO2 emissions",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_countries_by_carbon_dioxide_emissions"
+    },
+    {
+      "id": 29,
+      "area": "Geography",
+      "category": "The 10 largest islands in the world by area",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_islands_by_area"
+    },
+    {
+      "id": 30,
+      "area": "Geography",
+      "category": "The 10 largest lakes in the world by area",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_lakes_by_area"
+    },
+    {
+      "id": 31,
+      "area": "Culture",
+      "category": "The 10 countries with the most UNESCO World Heritage Sites",
+      "source_url": "https://en.wikipedia.org/wiki/World_Heritage_Sites_by_country"
+    },
+    {
+      "id": 32,
+      "area": "Music",
+      "category": "The 10 best-selling albums of all time",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_best-selling_albums"
+    },
+    {
+      "id": 33,
+      "area": "Sports",
+      "category": "The 10 players with the most Ballon d'Or wins",
+      "source_url": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    },
+    {
+      "id": 34,
+      "area": "Architecture",
+      "category": "The 10 tallest statues in the world",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_tallest_statues"
+    },
+    {
+      "id": 35,
+      "area": "Art",
+      "category": "The 10 most expensive paintings ever sold",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_most_expensive_paintings"
+    },
+    {
+      "id": 36,
+      "area": "Geography",
+      "category": "The 10 largest deserts in the world by area",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_deserts_by_area"
+    },
+    {
+      "id": 37,
+      "area": "Architecture",
+      "category": "The 10 longest bridges in the world",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_longest_bridges"
+    },
+    {
+      "id": 38,
+      "area": "Automotive",
+      "category": "The 10 fastest production cars by top speed",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_fastest_production_cars"
+    },
+    {
+      "id": 39,
+      "area": "Animals",
+      "category": "The 10 heaviest land animals",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_largest_mammals"
+    },
+    {
+      "id": 40,
+      "area": "Military",
+      "category": "The 10 countries with the largest armed forces (active personnel)",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_countries_by_number_of_military_and_paramilitary_personnel"
+    }
+  ]
+}
