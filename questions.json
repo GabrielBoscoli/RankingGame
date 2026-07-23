@@ -1,6 +1,6 @@
 {
   "game": "É Top!? Brasil (custom categories)",
-  "count": 40,
+  "count": 54,
   "categories": [
     {
       "id": 1,
@@ -241,6 +241,90 @@
       "area": "Military",
       "category": "The 10 countries with the largest armed forces (active personnel)",
       "source_url": "https://en.wikipedia.org/wiki/List_of_countries_by_number_of_military_and_paramilitary_personnel"
+    },
+    {
+      "id": 41,
+      "area": "Movies",
+      "category": "The 10 highest-grossing animated films of all time",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_animated_films"
+    },
+    {
+      "id": 42,
+      "area": "Economics",
+      "category": "The 10 countries with the highest GDP per capita (nominal)",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita"
+    },
+    {
+      "id": 43,
+      "area": "Video Games",
+      "category": "The 10 best-selling video game consoles of all time",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles"
+    },
+    {
+      "id": 44,
+      "area": "Literature",
+      "category": "The 10 best-selling fiction authors of all time",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_best-selling_fiction_authors"
+    },
+    {
+      "id": 45,
+      "area": "Transportation",
+      "category": "The 10 busiest metro systems by annual ridership",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_metro_systems"
+    },
+    {
+      "id": 46,
+      "area": "Travel",
+      "category": "The 10 most-visited cities by international tourists",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_cities_by_international_visitors"
+    },
+    {
+      "id": 47,
+      "area": "Entertainment",
+      "category": "The 10 most-visited amusement/theme parks by attendance",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_amusement_park_rankings"
+    },
+    {
+      "id": 48,
+      "area": "History",
+      "category": "The 10 largest empires in history by land area",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_largest_empires"
+    },
+    {
+      "id": 49,
+      "area": "Language",
+      "category": "The 10 languages with the most native speakers",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers"
+    },
+    {
+      "id": 50,
+      "area": "Environment",
+      "category": "The 10 countries with the largest forest area",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_countries_by_forest_area"
+    },
+    {
+      "id": 51,
+      "area": "Culture",
+      "category": "The 10 most-visited museums in the world",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_most-visited_museums"
+    },
+    {
+      "id": 52,
+      "area": "Art",
+      "category": "The 10 most expensive photographs ever sold",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_most_expensive_photographs"
+    },
+    {
+      "id": 53,
+      "area": "Automotive",
+      "category": "The 10 best-selling automobiles (car models) of all time",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_best-selling_automobiles"
+    },
+    {
+      "id": 54,
+      "area": "Military",
+      "category": "The 10 countries with the highest military expenditure",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_countries_by_military_expenditures"
     }
   ]
 }
