@@ -48,6 +48,9 @@ function App() {
         </div>
         <button type="button" className="reroll-button" onClick={reroll}>
           Reroll
+          <span className="reroll-icon" aria-hidden="true">
+            ⟳
+          </span>
         </button>
       </main>
     </div>
