@@ -34,4 +34,12 @@ main {
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  cursor: pointer;
+}
+
+.category-text:hover {
+  color: #3b6ea5;
 }

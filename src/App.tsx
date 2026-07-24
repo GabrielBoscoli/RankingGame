@@ -15,7 +15,14 @@ function App() {
     <main>
       <h1>{data.game}</h1>
       <div className="category-card">
-        <span className="category-text">{current.category}</span>
+        <a
+          className="category-text"
+          href={current.source_url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {current.category}
+        </a>
       </div>
     </main>
   )
