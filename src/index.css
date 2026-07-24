@@ -43,3 +43,19 @@ main {
 .category-text:hover {
   color: #3b6ea5;
 }
+
+.reroll-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #213547;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.reroll-button:hover {
+  background-color: #3b6ea5;
+}

@@ -9,7 +9,15 @@ function pickRandomCategory(categories: Category[]): Category {
 }
 
 function App() {
-  const [current] = useState<Category>(() => pickRandomCategory(data.categories))
+  const [current, setCurrent] = useState<Category>(() =>
+    pickRandomCategory(data.categories),
+  )
+
+  function reroll() {
+    const others = data.categories.filter((c) => c.id !== current.id)
+    if (others.length === 0) return
+    setCurrent(pickRandomCategory(others))
+  }
 
   return (
     <main>
@@ -24,6 +32,9 @@ function App() {
           {current.category}
         </a>
       </div>
+      <button type="button" className="reroll-button" onClick={reroll}>
+        Reroll
+      </button>
     </main>
   )
 }
