@@ -1,16 +1,22 @@
+import { useState } from 'react'
 import questionsData from './data/questions.json'
-import type { QuestionsFile } from './types'
+import type { Category, QuestionsFile } from './types'
 
 const data: QuestionsFile = questionsData
 
+function pickRandomCategory(categories: Category[]): Category {
+  return categories[Math.floor(Math.random() * categories.length)]
+}
+
 function App() {
+  const [current] = useState<Category>(() => pickRandomCategory(data.categories))
+
   return (
     <main>
       <h1>{data.game}</h1>
-      <p>
-        {data.count} categories loaded across{' '}
-        {new Set(data.categories.map((c) => c.area)).size} areas.
-      </p>
+      <div className="category-card">
+        <span className="category-text">{current.category}</span>
+      </div>
     </main>
   )
 }
