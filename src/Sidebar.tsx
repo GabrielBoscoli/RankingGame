@@ -62,7 +62,7 @@ function Sidebar({ categories, highlightedId, onSelect }: SidebarProps) {
             aria-label={collapsed ? 'Expand sidebar' : 'Collapse sidebar'}
             onClick={() => setCollapsed((prev) => !prev)}
           >
-            {collapsed ? '»' : '«'}
+            <span className="toggle-icon" aria-hidden="true" />
           </button>
         </div>
         {!collapsed && (

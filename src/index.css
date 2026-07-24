@@ -81,6 +81,20 @@ main h1 {
   background-color: #e6edf4;
 }
 
+.toggle-icon {
+  display: inline-block;
+  width: 1em;
+  line-height: 1;
+}
+
+.toggle-icon::before {
+  content: '«';
+}
+
+.sidebar.collapsed .toggle-icon::before {
+  content: '»';
+}
+
 .sidebar-title {
   margin: 0;
   font-size: 1.1rem;
@@ -239,6 +253,14 @@ main h1 {
     inset: 0;
     z-index: 10;
     background-color: rgba(15, 23, 42, 0.45);
+  }
+
+  .sidebar.collapsed .toggle-icon::before {
+    content: '☰';
+  }
+
+  .sidebar:not(.collapsed) .toggle-icon::before {
+    content: '✕';
   }
 
   main {
