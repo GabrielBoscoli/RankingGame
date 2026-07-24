@@ -31,6 +31,7 @@ function Sidebar({ categories, highlightedId, onSelect }: SidebarProps) {
   const [expandedAreas, setExpandedAreas] = useState<Set<string>>(
     () => new Set(),
   )
+  const [collapsed, setCollapsed] = useState(true)
 
   function toggleArea(area: string) {
     setExpandedAreas((prev) => {
@@ -47,46 +48,64 @@ function Sidebar({ categories, highlightedId, onSelect }: SidebarProps) {
   const groups = groupByArea(categories)
 
   return (
-    <aside className="sidebar">
-      <h2 className="sidebar-title">Categories</h2>
-      <ul className="sidebar-areas">
-        {groups.map((group) => {
-          const expanded = expandedAreas.has(group.area)
-          return (
-            <li key={group.area}>
-              <button
-                type="button"
-                className="area-toggle"
-                aria-expanded={expanded}
-                onClick={() => toggleArea(group.area)}
-              >
-                <span className="area-arrow">{expanded ? '▾' : '▸'}</span>
-                {group.area}
-              </button>
-              {expanded && (
-                <ul className="area-categories">
-                  {group.categories.map((category) => (
-                    <li key={category.id}>
-                      <button
-                        type="button"
-                        className={
-                          category.id === highlightedId
-                            ? 'category-item selected'
-                            : 'category-item'
-                        }
-                        onClick={() => onSelect(category)}
-                      >
-                        {category.category}
-                      </button>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </li>
-          )
-        })}
-      </ul>
-    </aside>
+    <>
+      {!collapsed && (
+        <div className="sidebar-backdrop" onClick={() => setCollapsed(true)} />
+      )}
+      <aside className={collapsed ? 'sidebar collapsed' : 'sidebar'}>
+        <div className="sidebar-header">
+          {!collapsed && <h2 className="sidebar-title">Categories</h2>}
+          <button
+            type="button"
+            className="sidebar-collapse-toggle"
+            aria-expanded={!collapsed}
+            aria-label={collapsed ? 'Expand sidebar' : 'Collapse sidebar'}
+            onClick={() => setCollapsed((prev) => !prev)}
+          >
+            {collapsed ? '»' : '«'}
+          </button>
+        </div>
+        {!collapsed && (
+          <ul className="sidebar-areas">
+            {groups.map((group) => {
+              const expanded = expandedAreas.has(group.area)
+              return (
+                <li key={group.area}>
+                  <button
+                    type="button"
+                    className="area-toggle"
+                    aria-expanded={expanded}
+                    onClick={() => toggleArea(group.area)}
+                  >
+                    <span className="area-arrow">{expanded ? '▾' : '▸'}</span>
+                    {group.area}
+                  </button>
+                  {expanded && (
+                    <ul className="area-categories">
+                      {group.categories.map((category) => (
+                        <li key={category.id}>
+                          <button
+                            type="button"
+                            className={
+                              category.id === highlightedId
+                                ? 'category-item selected'
+                                : 'category-item'
+                            }
+                            onClick={() => onSelect(category)}
+                          >
+                            {category.category}
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              )
+            })}
+          </ul>
+        )}
+      </aside>
+    </>
   )
 }
 
