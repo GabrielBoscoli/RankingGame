@@ -1,5 +1,5 @@
 {
-  "game": "Ranking Game",
+  "game": "É Top!? Brasil (custom categories)",
   "count": 54,
   "categories": [
     {
@@ -185,8 +185,8 @@
     {
       "id": 31,
       "area": "Culture",
-      "category": "The 10 countries with the most UNESCO World Heritage Sites",
-      "source_url": "https://en.wikipedia.org/wiki/World_Heritage_Sites_by_country"
+      "category": "The 10 countries with the most Nobel Prize laureates (all-time)",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Nobel_laureates_by_country"
     },
     {
       "id": 32,
