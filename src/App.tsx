@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import questionsData from './data/questions.json'
+import RulesModal from './RulesModal'
 import Sidebar from './Sidebar'
 import type { Category, QuestionsFile } from './types'
 
@@ -14,6 +15,7 @@ function App() {
     pickRandomCategory(data.categories),
   )
   const [pickedFromSidebar, setPickedFromSidebar] = useState(false)
+  const [rulesOpen, setRulesOpen] = useState(false)
 
   function reroll() {
     const others = data.categories.filter((c) => c.id !== current.id)
@@ -35,6 +37,15 @@ function App() {
         onSelect={selectFromSidebar}
       />
       <main>
+        <button
+          type="button"
+          className="rules-button"
+          aria-label="Game rules"
+          title="Game rules"
+          onClick={() => setRulesOpen(true)}
+        >
+          <span aria-hidden="true">i</span>
+        </button>
         <h1>{data.game}</h1>
         <div className="category-card">
           <a
@@ -53,6 +64,7 @@ function App() {
           </span>
         </button>
       </main>
+      {rulesOpen && <RulesModal onClose={() => setRulesOpen(false)} />}
     </div>
   )
 }
