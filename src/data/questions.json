@@ -1,6 +1,6 @@
 {
   "game": "Ranking Game",
-  "count": 54,
+  "count": 55,
   "categories": [
     {
       "id": 1,
@@ -325,6 +325,12 @@
       "area": "Military",
       "category": "The 10 countries with the highest military expenditure",
       "source_url": "https://en.wikipedia.org/wiki/List_of_countries_by_military_expenditures"
+    },
+    {
+      "id": 55,
+      "area": "Social Media",
+      "category": "The 10 most subscribed Brazilian YouTube channels",
+      "source_url": "https://socialblade.com/youtube/lists/top/50/subscribers/all/BR"
     }
   ]
 }
